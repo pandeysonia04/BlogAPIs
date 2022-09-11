@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="BlogAPIs" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.demo.BlogApIsApplicationTests" time="0.01" displayname="BlogApIsApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.BlogApIsApplicationTests]">
+    <testcase name="contextLoads" classname="com.example.demo.BlogApIsApplicationTests" time="0.01" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.BlogApIsApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+  <testsuite name="com.example.demo.PostControllerValidation" time="0.179" displayname="PostControllerValidation" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.PostControllerValidation]">
+    <testcase name="testcreatePost" classname="com.example.demo.PostControllerValidation" time="0.179" displayname="testcreatePost()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.PostControllerValidation]/[method:testcreatePost()]"/>
+  </testsuite>
+</testrun>
