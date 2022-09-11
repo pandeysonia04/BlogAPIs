@@ -123,7 +123,7 @@ public class CommentServiceImpl implements CommentService {
 
 		comment.setName(updatedcommentDto.getName());
 		comment.setEmail(updatedcommentDto.getEmail());
-		comment.setMessageBody(updatedcommentDto.getBody());
+		comment.setMessageBody(updatedcommentDto.getMessageBody());
 
 		Comment updatedComment = commentRepository.save(comment);
 		return maptoDto(updatedComment);

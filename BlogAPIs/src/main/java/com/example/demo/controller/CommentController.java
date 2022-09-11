@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -28,8 +30,8 @@ public class CommentController {
 
 	// Save comment for some postId
 	@PostMapping("/posts/{postId}/comments")
-	public ResponseEntity<CommentDto> createComment(@PathVariable(value = "postId") long postid,
-			@RequestBody CommentDto commentDto) {
+	public ResponseEntity<CommentDto> createComment( @PathVariable(value = "postId") long postid,
+			@Valid @RequestBody CommentDto commentDto) {
 
 		return new ResponseEntity<CommentDto>(commentService.createComment(postid, commentDto), HttpStatus.CREATED);
 
@@ -55,7 +57,7 @@ public class CommentController {
 
 	@PutMapping("/posts/{postId}/comments/{commentId}")
 	public ResponseEntity<CommentDto> updateCommentById(@PathVariable(value = "postId") long postId,
-			@PathVariable(value = "commentId") long commentId, @RequestBody CommentDto commentDto) {
+			@PathVariable(value = "commentId") long commentId,@Valid @RequestBody CommentDto commentDto) {
 
 		CommentDto updatedCommentDto = commentService.updateCommentById(postId, commentId, commentDto);
 

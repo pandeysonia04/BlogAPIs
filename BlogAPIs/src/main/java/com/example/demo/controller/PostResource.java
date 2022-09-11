@@ -1,7 +1,9 @@
 package com.example.demo.controller;
 
-import java.util.List;
+
 import  com.example.demo.util.AppConstants;
+
+import javax.validation.Valid;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -31,7 +33,7 @@ public class PostResource {
 	
 	//create blog post Rest API
 	@PostMapping
-	public ResponseEntity<PostDto> createPost(@RequestBody PostDto postDto){
+	public ResponseEntity<PostDto> createPost(@Valid @RequestBody PostDto postDto){
 		return new ResponseEntity<PostDto>(postService.createPost(postDto), HttpStatus.CREATED);
 	}
 	
@@ -52,7 +54,7 @@ public class PostResource {
 	}
 	
 	@PutMapping("/{id}")
-	public ResponseEntity<PostDto> updatePost(@RequestBody PostDto postDto, @PathVariable(name= "id") long id){
+	public ResponseEntity<PostDto> updatePost(@Valid @RequestBody PostDto postDto, @PathVariable(name= "id") long id){
 		
 	PostDto postResponse= postService.updatePost(postDto, id);
 	
