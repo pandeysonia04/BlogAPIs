@@ -5147,3 +5147,302 @@ java.lang.IllegalStateException: Call stack for thread main
 
 !ENTRY Activator 1 0 2022-09-11 14:19:25.783
 !MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:24:45.498
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:24:46.937
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:26:27.393
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:26:29.007
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:26:50.532
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:26:51.803
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:29:14.134
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 14:29:15.847
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:07:50.487
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:07:53.029
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:07:53.334
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 17:09:00.281
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 17:11:54.593
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:11:56.493
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:12:04.562
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:12:05.979
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:12:46.342
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:12:47.057
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 17:17:00.080
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 17:17:32.690
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 17:18:00.153
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:18:01.356
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 17:18:15.088
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 17:18:19.556
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:18:20.323
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:20:32.270
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:20:34.234
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:25:33.909
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:25:35.415
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 17:25:42.927
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 17:25:59.116
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 17:26:01.085
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 17:26:03.551
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 18:43:30.179
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 18:44:16.603
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 18:44:36.792
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 18:44:42.298
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:44:45.403
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:44:46.866
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:48:56.339
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:49:05.789
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 18:49:27.972
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 18:52:59.502
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:53:00.527
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:56:22.246
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:56:24.594
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-11 18:59:03.035
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2022-09-11 18:59:43.362
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:59:46.243
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 18:59:47.443
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 19:00:53.648
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 19:00:54.543
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 19:01:58.754
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-11 19:03:15.136
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-11 19:04:13.783
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 19:04:16.199
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-11 19:04:16.442
+!MESSAGE Has main method computation for project 'BlogAPIs'

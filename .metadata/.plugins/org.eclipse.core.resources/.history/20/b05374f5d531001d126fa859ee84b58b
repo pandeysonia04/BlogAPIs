@@ -123,6 +123,12 @@ public class CommentServiceImpl implements CommentService {
 	@Override
 	public void deleteCommentById(long postId, long commentId) {
 		
+		findPostAndCommentById(postId, commentId);
+		commentRepository.delete(comment);
+		
+	}
+
+	private void findPostAndCommentById(long postId, long commentId) {
 		// retrieve post entity by id
 				Post post = postRepository.findById(postId)
 						.orElseThrow(() -> new ResourceNotFoundException("Post", "id", postId));
@@ -134,8 +140,5 @@ public class CommentServiceImpl implements CommentService {
 				if (!comment.getPost().getId().equals(post.getId())) {
 					throw new BlogAPIException(HttpStatus.BAD_REQUEST, "Comment does not belongs to any post");
 				}
-				
-				commentRepository.delete(comment);
-		
 	}
 }
