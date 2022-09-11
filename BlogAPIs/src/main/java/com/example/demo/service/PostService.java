@@ -2,13 +2,15 @@ package com.example.demo.service;
 
 import java.util.List;
 
+import com.example.demo.controller.PostResource;
 import com.example.demo.payload.PostDto;
+import com.example.demo.payload.PostResponse;
 
 public interface PostService {
 	
 	PostDto createPost(PostDto postDto);
 	
-	List<PostDto> getAllPosts();
+	PostResponse getAllPosts(int pageNo, int pageSize, String sortBy, String sortDir);
 	
 	PostDto getPostById(long id);
 	

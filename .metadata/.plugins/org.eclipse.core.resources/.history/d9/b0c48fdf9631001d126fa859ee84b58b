@@ -1,0 +1,20 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import com.example.demo.controller.PostResource;
+import com.example.demo.payload.PostDto;
+
+public interface PostService {
+	
+	PostDto createPost(PostDto postDto);
+	
+	PostResource getAllPosts(int pageNo, int pageSize);
+	
+	PostDto getPostById(long id);
+	
+	PostDto updatePost(PostDto dto, long id);
+	
+	void postDeleteById(long id);
+
+}
