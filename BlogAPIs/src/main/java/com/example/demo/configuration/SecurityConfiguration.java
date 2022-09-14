@@ -3,6 +3,7 @@ package com.example.demo.configuration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -40,6 +41,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.csrf().disable()
 		.authorizeRequests()
 		.antMatchers(HttpMethod.GET, "/api/**").permitAll()
+		.antMatchers("/api/auth/**").permitAll()
 		.anyRequest()
 		.authenticated()
 		.and()
@@ -62,5 +64,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 //		return new InMemoryUserDetailsManager(soni,admin);
 
 //}
+	@Bean
+	@Override
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+return super.authenticationManagerBean();
+	}
 	
 }
