@@ -1,0 +1,13 @@
+#database properties
+spring.datasource.url= jdbc:mysql://localhost:3306/blogs
+spring.datasource.username=root
+spring.datasource.password=soni12345
+
+#hibernate Properties
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL57Dialect
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.show-sql = true
+
+#Jwt App properties
+app-jwt-secret= 87458bbshdaj4uyusakokohfisjfkjkfm47358shfjsk498057029ksdjhsdjghf84758379480hafdtds5ae2rU;]
+app-jwt-expiration-milliseconds= 604800000

@@ -21,6 +21,10 @@ import com.example.demo.payload.PostResponse;
 import com.example.demo.service.PostService;
 import com.example.demo.utility.AppConstants;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
+@Api(value="CRUD REST APIs for Post resources")
 @RestController
 
 public class PostResource {
@@ -33,11 +37,15 @@ public class PostResource {
 	
 	//create blog post Rest API
 	@PreAuthorize("hasRole('ADMIN')")
-	@PostMapping
+	@ApiOperation(value = "Create POST Rest api")
+	
+	@PostMapping("/api/v1/posts")
+	
 	public ResponseEntity<PostDto> createPost(@Valid @RequestBody PostDto postDto){
 		return new ResponseEntity<PostDto>(postService.createPost(postDto), HttpStatus.CREATED);
 	}
 	
+	@ApiOperation(value = "Get Post Rest api")
 	@GetMapping(("/api/v1/posts"))
 	public PostResponse getAllPosts(
 			@RequestParam(value="pageNo", defaultValue = AppConstants.DEFAULT_PAGE_NUMBER, required = false) int pageNo,
@@ -49,11 +57,13 @@ public class PostResource {
 		
 	}
 	
+	@ApiOperation(value = "Get POST by id Rest api")
 	@GetMapping("/api/v1/posts/{id}")
 	public ResponseEntity<PostDto> getPostById(@PathVariable(name="id") long id){
 		return ResponseEntity.ok(postService.getPostById(id));
 	}
 	
+	@ApiOperation(value = "Create POST by id Rest api")
 	@PreAuthorize("hasRole('ADMIN')")
 	@PutMapping("/api/v1/posts/{id}")
 	public ResponseEntity<PostDto> updatePost(@Valid @RequestBody PostDto postDto, @PathVariable(name= "id") long id){
@@ -64,6 +74,7 @@ public class PostResource {
 		
 	}
 
+	@ApiOperation(value = "Delete POST by id Rest api")
 	@PreAuthorize("hasRole('ADMIN')")
 	@DeleteMapping("/api/v1/posts/{id}")
 	public ResponseEntity<String> deletePost(@PathVariable(name="id") long id){

@@ -23,11 +23,14 @@ import com.example.demo.security.CustomUserDetailsService;
 import com.example.demo.security.JwtAuthEntryPoint;
 import com.example.demo.security.JwtAuthFilter;
 
+import springfox.documentation.service.ApiKey;
+
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+	
 	private CustomUserDetailsService userDetailsService;
 	
 	@Autowired
@@ -61,6 +64,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.authorizeRequests()
 		.antMatchers(HttpMethod.GET, "/api/v1**").permitAll()
 		.antMatchers("/api/v1/auth/**").permitAll()
+		.antMatchers("/v2/api-docs/**").permitAll()
+		.antMatchers("/swagger-ui").permitAll()
+		.antMatchers("/swagger/resources").permitAll()
+		.antMatchers("/web/jars/**").permitAll()
 		.anyRequest()
 		.authenticated();
 		

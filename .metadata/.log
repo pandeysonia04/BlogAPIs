@@ -9580,3 +9580,837 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2022-09-15 15:08:11.655
 !MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:05.706
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:05.873
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:07.412
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:33.801
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:15:33.802
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:15:33.807
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:15:33.813
+!MESSAGE buffering callback sts4.classpath.focIaErA BlogAPIs false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:15:33.813
+!MESSAGE executing callback sts4.classpath.focIaErA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:15:33.889
+!MESSAGE executing callback sts4.classpath.focIaErA SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-09-15 16:15:34.801
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:35.165
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:35.390
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:36.813
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:37.472
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:37.650
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:38.942
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:39.201
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:40.584
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:41.070
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:45.016
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:45.862
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:15:46.146
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-15 16:15:56.355
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:170)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1966)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-15 16:15:56.659
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:170)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1966)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-09-15 16:15:57.604
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:16:05.501
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:16:07.139
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:16:07.140
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:16:07.149
+!MESSAGE classpath=125 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:16:07.157
+!MESSAGE buffering callback sts4.classpath.focIaErA BlogAPIs false 125
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:16:07.158
+!MESSAGE executing callback sts4.classpath.focIaErA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:16:07.211
+!MESSAGE executing callback sts4.classpath.focIaErA SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-09-15 16:16:09.288
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:16:10.567
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:16:10.796
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:16:11.310
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:16:11.720
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:19.134
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:17:19.134
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:17:19.144
+!MESSAGE classpath=125 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:17:19.151
+!MESSAGE buffering callback sts4.classpath.focIaErA BlogAPIs false 125
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:17:19.152
+!MESSAGE executing callback sts4.classpath.focIaErA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:17:19.432
+!MESSAGE executing callback sts4.classpath.focIaErA SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-09-15 16:17:20.076
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:20.272
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:21.068
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:21.939
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:23.074
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:23.384
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:23.972
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:24.215
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:25.593
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:25.813
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:26.000
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:26.539
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:26.819
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:43.814
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:44.497
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:45.812
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:17:46.066
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:19:31.657
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:19:32.377
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:12.392
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:15.649
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:15.847
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:16.311
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:16.578
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:39.673
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.ui 4 4 2022-09-15 16:22:40.175
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda$1921/0x0000000101240b10@7fce0bda, thread Worker-101: Launching BlogAPIs - BlogApIsApplication will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2022-09-15 16:22:40.175
+!MESSAGE Worker-101: Launching BlogAPIs - BlogApIsApplication thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-101: Launching BlogAPIs - BlogApIsApplication
+	at java.management@16.0.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@16.0.1/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:485)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:245)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.preLaunchCheck(AbstractJavaLaunchConfigurationDelegate.java:1026)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2022-09-15 16:22:40.175
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at java.base@16.0.1/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:318)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:205)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.validateState(TextFileDocumentProvider.java:1037)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.validateState(AbstractTextEditor.java:4906)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1309)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7151)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveablesList$$Lambda$1604/0x00000001013173b0.run(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper$$Lambda$1298/0x00000001011460e8.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1255/0x000000010100ed68.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:820)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3426)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1494)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1482)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:228)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:182)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda$1921/0x0000000101240b10.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$1048/0x0000000100db4230.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$147/0x00000001002a5fc0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@16.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@16.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base@16.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@16.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-09-15 16:22:40.551
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:41.135
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-15 16:22:41.666
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:170)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1966)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-09-15 16:22:41.725
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:42.110
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:42.754
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:22:42.975
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:51.086
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:51.696
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:51.810
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:52.939
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:53.183
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:53.702
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:54.311
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:45:54.533
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:04.739
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:05.385
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:05.634
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:07.613
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:08.274
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:08.502
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:13.966
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:14.245
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:14.338
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:14.937
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:15.194
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:15.324
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:15.735
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:15.873
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:16.155
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:16.462
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:16.590
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:17.749
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:17.953
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:19.315
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:19.969
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:20.167
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:42.652
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:42.898
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:43.499
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:43.621
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:44.507
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:45.158
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:45.423
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:50.712
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:50.931
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:51.051
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:51.685
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:46:51.825
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:55:18.131
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:55:18.867
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:55:19.840
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 16:55:20.073
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:46:18.667
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:46:19.492
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:46:19.877
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:46:20.051
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:54:27.267
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:54:27.958
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:54:28.081
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:55:30.143
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:55:30.836
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 22:55:30.959
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:13:40.638
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:13:41.909
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:14:39.759
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:14:40.486
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-15 23:15:59.207
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-15 23:16:06.959
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:07.917
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:08.943
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:09.158
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:15.291
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:15.968
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:16.230
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:16:16.413
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:19:48.867
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:19:49.512
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:18.640
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:22.947
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 23:24:22.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 23:24:22.961
+!MESSAGE classpath=125 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 23:24:22.971
+!MESSAGE buffering callback sts4.classpath.focIaErA BlogAPIs false 125
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 23:24:22.972
+!MESSAGE executing callback sts4.classpath.focIaErA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 23:24:23.049
+!MESSAGE executing callback sts4.classpath.focIaErA SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-09-15 23:24:23.940
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:25.013
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:25.466
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:25.660
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:26.090
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:24:26.219
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:26:32.226
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:26:32.881
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:57:52.682
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:57:53.431
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:57:53.729
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-15 23:57:53.979
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-09-16 00:02:30.475
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-09-16 00:03:19.891
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:03:20.646
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:03:20.843
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:03:23.519
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:03:24.175
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:03:24.528
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:03:24.677
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:06:30.609
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:06:31.394
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:06:31.680
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:06:31.886
+!MESSAGE Has main method computation for project 'BlogAPIs'

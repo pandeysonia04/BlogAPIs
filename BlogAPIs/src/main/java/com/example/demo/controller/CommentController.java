@@ -18,6 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.payload.CommentDto;
 import com.example.demo.service.CommentService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
+@Api(value = "CRDU Rest APIs for Comment APIs ")
 @RestController
 @RequestMapping("/api/v1")
 public class CommentController {
@@ -29,6 +33,7 @@ public class CommentController {
 	}
 
 	// Save comment for some postId
+	@ApiOperation(value = "Create POST")
 	@PostMapping("/posts/{postId}/comments")
 	public ResponseEntity<CommentDto> createComment( @PathVariable(value = "postId") long postid,
 			@Valid @RequestBody CommentDto commentDto) {
@@ -38,7 +43,7 @@ public class CommentController {
 	}
 
 	// Get COmments by Post Id
-
+@ApiOperation(value = "get comment of post by postid")
 	@GetMapping("/posts/{postId}/comments")
 	public List<CommentDto> getCommentsByPostId(@PathVariable(value = "postId") long postId) {
 
@@ -46,6 +51,7 @@ public class CommentController {
 
 	}
 
+@ApiOperation(value = "Get POST by postid and comment by commentId Rest api")
 	@GetMapping("/posts/{postId}/comments/{commentId}")
 	public ResponseEntity<CommentDto> getCommentById(@PathVariable(value = "postId") long postId,
 			@PathVariable(value = "commentId") long commentId) {

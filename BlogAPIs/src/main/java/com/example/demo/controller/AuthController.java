@@ -24,8 +24,12 @@ import com.example.demo.repo.RoleRepository;
 import com.example.demo.repo.UserRepository;
 import com.example.demo.security.JwtTokenProvider;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
+@Api(value= "Auth controller exposes sign in  and sign up REST APIs")
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/api/v1/auth")
 public class AuthController {
 
 	@Autowired
@@ -43,6 +47,7 @@ public class AuthController {
 	@Autowired
 	private JwtTokenProvider jwtTokenProvider;
 
+	@ApiOperation(value="REST API to register or Signup user to Blog app")
 	@PostMapping("/signin")
 	public ResponseEntity<JwtAuthResponse> authenticateUser(@RequestBody LoginDto loginDto) {
 
@@ -57,6 +62,7 @@ public class AuthController {
 		return ResponseEntity.ok(new JwtAuthResponse(token));
 	}
 
+	@ApiOperation(value="REST API to sign in  user to Blog app")
 	@PostMapping("/signup")
 	public ResponseEntity<?> registerUser(@RequestBody SignupDto signUpDto) {
 
