@@ -19,7 +19,7 @@ import com.example.demo.payload.CommentDto;
 import com.example.demo.service.CommentService;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class CommentController {
 
 	private CommentService commentService;
