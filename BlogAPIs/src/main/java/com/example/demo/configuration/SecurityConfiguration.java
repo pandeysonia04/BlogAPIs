@@ -1,5 +1,6 @@
 package com.example.demo.configuration;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -9,14 +10,18 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.example.demo.security.CustomUserDetailsService;
+import com.example.demo.security.JwtAuthEntryPoint;
+import com.example.demo.security.JwtAuthFilter;
 
 @Configuration
 @EnableWebSecurity
@@ -25,10 +30,18 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 	private CustomUserDetailsService userDetailsService;
 	
+	@Autowired
+	private JwtAuthEntryPoint jwtAuthenticationEntryPoint;
+	
 	public SecurityConfiguration(CustomUserDetailsService userDetailsService) {
 		this.userDetailsService = userDetailsService;
 	}
 
+	@Bean
+	public JwtAuthFilter jwtAuthenticationfiler() {
+			return new JwtAuthFilter();
+	}
+	
 	@Bean
 	PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
@@ -39,17 +52,24 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	
 		http
 		.csrf().disable()
+		.exceptionHandling()
+		.authenticationEntryPoint(jwtAuthenticationEntryPoint) 
+		.and()
+		.sessionManagement()
+		.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+		.and()
 		.authorizeRequests()
 		.antMatchers(HttpMethod.GET, "/api/**").permitAll()
 		.antMatchers("/api/auth/**").permitAll()
 		.anyRequest()
-		.authenticated()
-		.and()
-		.httpBasic();
+		.authenticated();
+		
+		http.addFilterBefore(jwtAuthenticationfiler(), UsernamePasswordAuthenticationFilter.class);
+		
 		
 	}
 	
-	//DB authentication code 
+	// DB authentication code 
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());

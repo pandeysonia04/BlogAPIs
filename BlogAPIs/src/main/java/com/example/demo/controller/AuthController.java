@@ -17,10 +17,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Role;
+import com.example.demo.payload.JwtAuthResponse;
 import com.example.demo.payload.LoginDto;
 import com.example.demo.payload.SignupDto;
 import com.example.demo.repo.RoleRepository;
 import com.example.demo.repo.UserRepository;
+import com.example.demo.security.JwtTokenProvider;
 
 @RestController
 @RequestMapping("/api/auth")
@@ -38,14 +40,21 @@ public class AuthController {
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 
+	@Autowired
+	private JwtTokenProvider jwtTokenProvider;
+
 	@PostMapping("/signin")
-	public ResponseEntity<String> authenticateUser(@RequestBody LoginDto loginDto) {
+	public ResponseEntity<JwtAuthResponse> authenticateUser(@RequestBody LoginDto loginDto) {
 
 		Authentication authentication = authManager.authenticate(
 				new UsernamePasswordAuthenticationToken(loginDto.getUsernameOrEmail(), loginDto.getPassword()));
 
 		SecurityContextHolder.getContext().setAuthentication(authentication);
-		return new ResponseEntity<String>("User signed in successfully", HttpStatus.OK);
+
+		// get token from tokenProvider
+		String token = jwtTokenProvider.generateToken(authentication);
+
+		return ResponseEntity.ok(new JwtAuthResponse(token));
 	}
 
 	@PostMapping("/signup")
@@ -74,7 +83,7 @@ public class AuthController {
 		userRepository.save(user);
 
 		return new ResponseEntity<>("User Registered successfully", HttpStatus.OK);
-	
+
 	}
 
 }

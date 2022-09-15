@@ -1,8 +1,6 @@
 package com.example.demo.controller;
 
 
-import  com.example.demo.util.AppConstants;
-
 import javax.validation.Valid;
 
 import org.springframework.http.HttpStatus;
@@ -21,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.payload.PostDto;
 import com.example.demo.payload.PostResponse;
 import com.example.demo.service.PostService;
+import com.example.demo.utility.AppConstants;
 
 @RestController
 @RequestMapping("/api/posts")
