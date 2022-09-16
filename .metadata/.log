@@ -10414,3 +10414,18 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2022-09-16 00:06:31.886
 !MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY Activator 1 0 2022-09-16 00:17:56.504
+!MESSAGE Has main method computation for project 'BlogAPIs'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-16 00:17:56.809
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.focIaErA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-16 00:17:56.810
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.focIaErA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-16 00:17:56.812
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-16 00:17:56.812
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.focIaErA => OK
